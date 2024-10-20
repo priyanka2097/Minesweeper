@@ -1,0 +1,40 @@
+.box {
+    width: 540px;
+    height: 540px;
+    position: absolute;
+}
+
+.horizontal {
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+.blocks {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background: #aaa;
+    float: left;
+    outline: 1px solid #666;
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.danger {
+    background: maroon;
+}
+
+.inactive {
+    color: transparent;
+    background: #aaa;
+}
+
+.active {
+    background: lightseagreen;
+}
+
+.warning {
+    background: rgb(190, 118, 34);
+}
